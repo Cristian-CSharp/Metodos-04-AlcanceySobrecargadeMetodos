@@ -107,7 +107,7 @@ class Calculadora
 
 
 ## 🏋 Ejercicios :
- **Ejercicio 1: Contador de Palabras con Sobrecarga**
+ **💻 Ejercicio 1: Contador de Palabras con Sobrecarga**
  
 Crea un programa en C# que cuente **cuántas palabras hay en un texto** ingresado por el usuario.
 
@@ -117,7 +117,7 @@ Crea un programa en C# que cuente **cuántas palabras hay en un texto** ingresad
 -   La primera versión del método recibe un **string con un texto** y devuelve la cantidad de palabras.
 -   La segunda versión no recibe parámetros y pide el texto **usando `Console.ReadLine()`**.
 
-**Ejercicio 2: Calculadora con Sobrecarga**
+**💻 Ejercicio 2: Calculadora con Sobrecarga**
 
 Crea una clase `Calculadora` con métodos sobrecargados para:
 
@@ -127,7 +127,7 @@ Crea una clase `Calculadora` con métodos sobrecargados para:
 -   Multiplicar **dos enteros**.
 -   Multiplicar **tres enteros**.
 
-**Ejercicio 3: Clases con Campos de Clase y Métodos**
+**💻 Ejercicio 3: Clases con Campos de Clase y Métodos**
 
 Crea una clase `CuentaBancaria` que tenga:
 
