@@ -16,11 +16,18 @@ namespace Ejercicio_4_APIdeConversionDeMonedas
 
             do
             {
-                
-                
+
+                int eleccion;
                 Console.WriteLine("1. Dolares a Soles \n2. Dolares a Euros \n3. Otros \n4. Salir");
                 Console.Write("Elija el tipo de conversion que desea realizar: ");
-                int eleccion = int.Parse(Console.ReadLine());
+                    //     hola -- fasle --- ! --- true                y           true    y  false
+                while (!int.TryParse(Console.ReadLine(), out eleccion) || eleccion < 1 || eleccion > 4)
+                {
+                    Console.WriteLine("Error: debe ingresar un numero entre 1 y 4");
+                    Console.Write("Ingrese nuevamente el tipo de conversion que desa realizar: ");
+                }
+
+                
 
 
                 switch (eleccion)
@@ -57,25 +64,8 @@ namespace Ejercicio_4_APIdeConversionDeMonedas
                         break;
                     case 4:
                         Console.WriteLine("Saliendo del programa.....");
-                        break;
-                    default:
-                        Console.WriteLine("opcion invalida");
-                        Console.WriteLine("Desea realizar una conversion?");
-                        string respuesta = Console.ReadLine().ToLower();
-
-                        if (respuesta == "si")
-                        {
-                            esverdad = false;
-                            break;
-                        }
-                        else if (respuesta == "no")
-                        {
-                            esverdad= true;
-                            Console.WriteLine("Cerrando programa....");
-                            break;
-                        }
-                        break;
-                        
+                        esverdad = true;
+                        break;       
                 }
             }
             while (!esverdad);
