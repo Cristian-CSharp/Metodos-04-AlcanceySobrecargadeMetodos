@@ -144,15 +144,16 @@ Vas a crear una clase ConversorMoneda con sobrecarga de métodos para convertir 
 - Método 1: Convierte de dólares a soles.
 - Método 2: Convierte de dólares a euros.
 - Método 3: Convierte de cualquier moneda a otra, recibiendo la tasa de conversión.
+  
 Requisitos:
 
-✅ Usa sobrecarga de métodos.
+- Usa sobrecarga de métodos.
 
-✅ Simula una API de backend.
+- Simula una API de backend.
 
-✅ Usa decimal para evitar errores de precisión.
+- Usa decimal para evitar errores de precisión.
 
-✅ Recibe valores dinámicos para conversión.
+- Recibe valores dinámicos para conversión.
 
 
 ---
